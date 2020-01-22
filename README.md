@@ -6,5 +6,5 @@
 
  After soldering the parts together (or connecting them via jumper cables) it may look like this. (30 NeoPixels). For a easier intallation, the NeoPixel-Stripe was glued into a metal frame.
 
- ![](https://github.com/copypastecat/WiFi_signal_strength/blob/master/IMG_20200122_112723.jpg)
- ![](https://github.com/copypastecat/WiFi_signal_strength/blob/master/IMG_20200122_112811.jpg)
+ ![complete setup](https://github.com/copypastecat/WiFi_signal_strength/blob/master/IMG_20200122_112723.jpg)
+ ![closer view of NodeMCU and display](https://github.com/copypastecat/WiFi_signal_strength/blob/master/IMG_20200122_112811.jpg)
