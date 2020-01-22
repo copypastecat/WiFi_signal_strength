@@ -104,6 +104,7 @@ void loop() {
   //the following block uses the same principles as the above, but only updates the LEDs and the display if there are any changes to what they display
   //without this "update-check" the pixels.clear() method causes a very irritating on/off-stutter when the main loop is repeated.
   int pixelstoshow2 = 0;
+  int NumberSSIDToBePrinted2 = 0;
   for(int t = 0; t<1000; ++t){
      int numNetworks = WiFi.scanNetworks();
      int32_t signalStrength2 = WiFi.RSSI(0);
@@ -136,6 +137,8 @@ void loop() {
   pixelstoshow = pixelstoshow2;
   }
   if(NumberSSIDToBePrinted!=NumberSSIDToBePrinted2){
+    lcd.clear();
+    lcd.print("strongest WiFi: ");
     lcd.setCursor(0,1);
     lcd.print(WiFi.SSID(NumberSSIDToBePrinted2).c_str());
   }
